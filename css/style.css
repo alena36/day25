@@ -1,0 +1,69 @@
+body {
+	font-family: Lato, sans-serif;
+	margin: 0;
+}
+
+.article {
+	padding: 60px 50px;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-wrapper {
+	padding: 50px;
+}
+
+.title {
+	font-family: "Playfair Display", serif;
+	font-size: 42px;
+	margin: 0;
+}
+
+.paragraph {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.first-paragraph::first-letter {
+	font-size: 0px;
+}
+
+.letter {
+	font-family: "Playfair Display", serif;
+	float: left;
+	font-size: 100px;
+	padding-right: 20px;
+	line-height: 0.8;
+}
+
+.qoute {
+	font-style: italic;
+	font-weight: 300;	
+	font-size: 20px;
+}
+
+q::before,
+q::after {
+    margin-right: 15px;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+q::after {
+	display: none;
+}
+
+.link-details {
+	display: block;
+	color: #f1bd08;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 50px;
+	border: 2px solid #f1bd08;
+	text-decoration: none;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
